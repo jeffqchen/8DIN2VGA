@@ -1,6 +1,6 @@
 # 8DIN2VGA
 
-<img src="./Pics/01.jpg" width="200px" /> <img src="./Pics/02.jpg" width="200px" />
+<img src="./Pics/01.jpg" width="400px" /> <img src="./Pics/02.jpg" width="400px" />
 
 A dongle for console with 8 pin Mini DIN RGBs video output.
 
@@ -11,7 +11,7 @@ This adapter allows you to plug into consoles that outputs RGBs and audio via a 
 - 3DORGB modded with 3DORGB and 8 pin Mini DIN option
 - Certain supergun boards
 
- <img src="./Pics/03.jpg" width="200px" />
+ <img src="./Pics/03.jpg" width="400px" />
 
 -----------
 
