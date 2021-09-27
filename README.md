@@ -57,7 +57,6 @@ Soldering in this project is essential and somewhat challenging. This applies to
 
  <img src="./Pics/Solder/01.jpg" width="400px" />
  <img src="./Pics/Solder/02.jpg" width="400px" />
- <img src="./Pics/Solder/03.jpg" width="400px" />
 
  First, put the 3 boards together in their final position, and fix the assembly with the help from reverse tweezers or clamps. Try and fit the 0.8mm PCBs in between the gaps between the back side of the 3 rows of pins. Push the sub PCBs all the way until they touch the pin header. Make sure the pins and their pads are aligned properlly.
 
@@ -70,6 +69,8 @@ Soldering in this project is essential and somewhat challenging. This applies to
  ----
 
  Solder the two pins on the bottom side of the bottom PCB with proper amount of solder. Then release the clamping and remove the top and main PCB. Proceed to solder the center row of the pins to the bottom PCB.
+ 
+  <img src="./Pics/Solder/03.jpg" width="400px" />
 
  Again, put everything back together with clamping. Then, solder the top PCB to the top row of the pin header. Now, release the clamping and remove only the main PCB. The assembly should look as follows:
 
