@@ -8,6 +8,9 @@ A dongle for console with 8 pin Mini DIN RGBs video output.
 
 - PCB design pending final verification
 
+------
+
+
 This adapter allows you to plug into consoles that outputs RGBs and audio via a 8 pin Mini DIN jack and transmit the signals through a VGA cable. This includes but not limited to:
 - NESRGB modded NES/Famicom
 - 3DORGB modded with 3DORGB and 8 pin Mini DIN option
@@ -102,4 +105,3 @@ Soldering in this project is essential and somewhat challenging. This applies to
  Last, solder in the VGA port. Soldering is done.
 
  <img src="./Pics/Solder/14.jpg" width="400px" />
- 
