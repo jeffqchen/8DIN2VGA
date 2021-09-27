@@ -18,7 +18,7 @@ This adapter allows you to plug into consoles that outputs RGBs and audio via a 
 
  <img src="./Pics/03.jpg" width="400px" />
 
- Audio can be sent within the VGA cable, or broken out from the 3.5mm jack on the dongle. Buzzing may be noticeable when audio is transmited throught the VGA cable in certain scenes in certain games. This is due to insufficient shielding in most VGA cables. If you find buzzing to be annoying, please use the 3.5mm jack on the dongle for audio outputting. This will ensure the cleanest audio output.
+ Audio can be sent within the VGA cable, or extracted from the 3.5mm jack on the dongle. Buzzing may be noticeable when audio is transmited through the VGA cable in certain scenes in certain games. This is due to insufficient shielding in most VGA cables. If you find the buzzing to be annoying, please use the 3.5mm jack on the dongle for audio output. This will ensure the cleanest possible audio.
 
 -----------
 
