@@ -65,26 +65,32 @@ Soldering in this project is essential and somewhat challenging. This applies to
  <img src="./Pics/Solder/04.jpg" width="400px" />
 
  Now, put the 2 pieces of metal shielding over the pin header part:
+
  <img src="./Pics/Solder/05.jpg" width="400px" />
 
  Shove the assembly through the round hole on the inside shell, all the way in:
+
  <img src="./Pics/Solder/06.jpg" width="400px" />
 
  Test fit the main PCB firmly into the shell and the plug and see if all the landing pads line up correctly:
+
  <img src="./Pics/Solder/07.jpg" width="400px" />
  <img src="./Pics/Solder/08.jpg" width="400px" />
 
  Now, take out the main PCB and solder on the 10uF SMD caps and the headphone jack:
+
  <img src="./Pics/Solder/09.jpg" width="400px" />
 
  Again, insert the main PCB into its final position. Pinch the two sub boards into the main with a clapm or reverse tweezers. Make sure there's no gap between the sub and main PCB. Then, solder all the landing pads with proper amount of solder.
+
  <img src="./Pics/Solder/10.jpg" width="400px" />
  <img src="./Pics/Solder/11.jpg" width="400px" />
 
  Then, use ample amount of solder to attach the metal shield of the plug to the exposed copper area onto both sides of the main PCB
+
  <img src="./Pics/Solder/12.jpg" width="400px" />
  <img src="./Pics/Solder/13.jpg" width="400px" />
 
  Last, solder in the VGA port. Soldering is done.
- <img src="./Pics/Solder/14.jpg" width="400px" />
  
+ <img src="./Pics/Solder/14.jpg" width="400px" />
