@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 8DIN2VGA)(type Legacy)(uri ${KIPRJMOD}/8DIN2VGA.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri /Users/jeffchen/KiCAD/Files/power/power.lib)(options "")(descr ""))
+)
