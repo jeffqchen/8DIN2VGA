@@ -28,9 +28,9 @@ This adapter allows you to plug into consoles that outputs RGBs and audio via a 
 - https://www.aliexpress.com/item/32891421337.html
 
 PCB
-- Main: https://oshpark.com/shared_projects/cd4Csgm7
-- Top Sub (0.8mm): https://oshpark.com/shared_projects/RUMnWOI8
-- Bottom Sub (0.8mm): https://oshpark.com/shared_projects/H1mjmLko
+- Main: https://oshpark.com/shared_projects/XZ4A1SB4
+- Top Sub (0.8mm): https://oshpark.com/shared_projects/FF7H08du
+- Bottom Sub (0.8mm): https://oshpark.com/shared_projects/HFqqnMif
 
 ** Note the Top & Bottom sub boards MUST be ordered with the 0.8mm thickness otption, otherwise they won't fit!
 
@@ -69,7 +69,7 @@ Soldering in this project is essential and somewhat challenging. This applies to
  ----
 
  Solder the two pins on the bottom side of the bottom PCB with proper amount of solder. Then release the clamping and remove the top and main PCB. Proceed to solder the center row of the pins to the bottom PCB.
- 
+
   <img src="./Pics/Solder/03.jpg" width="400px" />
 
  Again, put everything back together with clamping. Then, solder the top PCB to the top row of the pin header. Now, release the clamping and remove only the main PCB. The assembly should look as follows:
