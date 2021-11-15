@@ -1,38 +1,15 @@
-# 8DIN2VGA
-
-<img src="./Pics/01.jpg" width="400px" /> <img src="./Pics/02.jpg" width="400px" />
-
-A dongle for console with 8 pin Mini DIN RGBs video output.
-
-## *This project is still work-in-progress.*
-
-- PCB design pending final verification
-
-------
-
-
-This adapter allows you to plug into consoles that outputs RGBs and audio via a 8 pin Mini DIN jack and transmit the signals through a VGA cable. This includes but not limited to:
-- NESRGB modded NES/Famicom
-- 3DORGB modded with 3DORGB and 8 pin Mini DIN option
-- Certain supergun boards
-
- <img src="./Pics/03.jpg" width="400px" />
-
- Audio can be sent within the VGA cable, or extracted from the 3.5mm jack on the dongle. Buzzing may be noticeable when audio is transmited through the VGA cable in certain scenes in certain games. This is due to insufficient shielding in most VGA cables. If you find the buzzing to be annoying, please use the 3.5mm jack on the dongle for audio output. This will ensure the cleanest possible audio.
-
+# 8DIN2VGA PCB-Type
 -----------
+## Parts
 
-## Part
+8 pin Mini DIN Male (PCB Type) - Choose the "8 Pin" option
+- https://www.aliexpress.com/item/4001071580837.html
 
-8 pin Mini DIN Male Plug
-- https://www.aliexpress.com/item/32891421337.html
+Note: the "9 Pin" option is incompatible with the Genesis, if you are wondering. Don't buy it.
 
 PCB
-- Main: https://oshpark.com/shared_projects/XZ4A1SB4
-- Top Sub (0.8mm): https://oshpark.com/shared_projects/FF7H08du
-- Bottom Sub (0.8mm): https://oshpark.com/shared_projects/HFqqnMif
-
-** Note the Top & Bottom sub boards MUST be ordered with the 0.8mm thickness otption, otherwise they won't fit!
+- Main: https://oshpark.com/shared_projects/Ayo7RfDd
+- Plug Sub PCB: https://oshpark.com/shared_projects/sRWPes9V
 
 VGA Port Slim Female
 - https://www.aliexpress.com/item/4000596805684.html
@@ -42,67 +19,80 @@ VGA Port Slim Female
 
 2x SMD Capacitor 10uF 6.3V 0603 size
 
-M2x20mm screw and hex nut
+(1)M2x20mm and (1)M2x16mm screw and hex nut
 - https://www.amazon.com/gp/product/B014OO5KQG
+
+3D Printed Case and Insert
 
 -----------
 ## Print
 
-Print the parts with the mating surface downwards, with support.
+Print the parts in their original orientations, with the mating surface downwards. Print with support.
 
 -----------
 ## Assembly
 
-Soldering in this project is essential and somewhat challenging. This applies to soldering the sub boards to the pin header, as well as the landing pads on the main PCB. If you leave any gap, the assembly will not fit and the shells won't close properlly.
+Trim all the extra tabs on the PCB and file them flush to ensure an easy assembly.
 
- <img src="./Pics/Solder/01.jpg" width="400px" />
- <img src="./Pics/Solder/02.jpg" width="400px" />
+First, insert the main PCB golden fingers into the plug PCB as indicated in the photos.
 
- First, put the 3 boards together in their final position, and fix the assembly with the help from reverse tweezers or clamps. Try and fit the 0.8mm PCBs in between the gaps between the back side of the 3 rows of pins. Push the sub PCBs all the way until they touch the pin header. Make sure the pins and their pads are aligned properlly.
+Adjust the position to ensure the mating is flush. If not, try filing off some more of the PCB.
 
- ----
+ <img src="./Pics/01.jpg" width="400px" />
 
- ## IMPORTANT
+ <img src="./Pics/02.jpg" width="400px" />
 
- *The plastic of the plug pin header is weak against heat and should not be heated for more than a few seconds in one go. Try to cool it down between soldering by blowing air on it.*
+Make sure the main and the plug PCBs are perpendicular. Then tac it down by soldering only one contact. Then inspect again. If something is not right, adjust while keeping your iron on the soldered joint to keep it molten.
 
- ----
+<img src="./Pics/03.jpg" width="400px" />
 
- Solder the two pins on the bottom side of the bottom PCB with proper amount of solder. Then release the clamping and remove the top and main PCB. Proceed to solder the center row of the pins to the bottom PCB.
+Once satisfied, solder down all the contacts between the main and the plug PCB. Then solder on the 0603 10uF capacitors onto the main PCB .
 
-  <img src="./Pics/Solder/03.jpg" width="400px" />
+ <img src="./Pics/04.jpg" width="400px" />
 
- Again, put everything back together with clamping. Then, solder the top PCB to the top row of the pin header. Now, release the clamping and remove only the main PCB. The assembly should look as follows:
+Insert the 8 pin DIN plug into the plug PCB. Tac one joint down with solder.
 
- <img src="./Pics/Solder/04.jpg" width="400px" />
+ <img src="./Pics/05.jpg" width="400px" />
 
- Now, put the 2 pieces of metal shielding over the pin header part:
+ Check if the plug is soldered on straight, adjust if necessary.
 
- <img src="./Pics/Solder/05.jpg" width="400px" />
+ <img src="./Pics/06.jpg" width="400px" />
 
- Shove the assembly through the round hole on the inside shell, all the way in:
+ <img src="./Pics/07.jpg" width="400px" />
 
- <img src="./Pics/Solder/06.jpg" width="400px" />
+Then solder all the contacts of the plug to the PCB.
 
- Test fit the main PCB firmly into the shell and the plug and see if all the landing pads line up correctly:
+Right next to the plug, on the PCB, there is an exposed area of copper. Drown it with copper and solder it to the metal shielding to add more mechanical strength to the assembly.
 
- <img src="./Pics/Solder/07.jpg" width="400px" />
- <img src="./Pics/Solder/08.jpg" width="400px" />
+ <img src="./Pics/08.jpg" width="400px" />
 
- Now, take out the main PCB and solder on the 10uF SMD caps and the headphone jack:
+ Don't forget to solder the metal tab on top of the shielding to the PCB for even more strength.
 
- <img src="./Pics/Solder/09.jpg" width="400px" />
+ <img src="./Pics/09.jpg" width="400px" />
 
- Again, insert the main PCB into its final position. Pinch the two sub boards into the main with a clapm or reverse tweezers. Make sure there's no gap between the sub and main PCB. Then, solder all the landing pads with proper amount of solder.
+ Insert the 3.5mm jack into the PCB. Solder it down by only one lead and adjust it to make sure it's flush to the PCB. Then solder all the contacts.
 
- <img src="./Pics/Solder/10.jpg" width="400px" />
- <img src="./Pics/Solder/11.jpg" width="400px" />
+ <img src="./Pics/10.jpg" width="400px" />
 
- Then, use ample amount of solder to attach the metal shield of the plug to the exposed copper area onto both sides of the main PCB。
+ <img src="./Pics/11.jpg" width="400px" />
 
- <img src="./Pics/Solder/12.jpg" width="400px" />
- <img src="./Pics/Solder/13.jpg" width="400px" />
+Insert the assembly into the inside shell. You might have to push a bit hard if the printing tolerance is tight. Then, fit in the 3D printed insert piece. It should be flush with the outside of the 3.5mm jack.
 
- Last, solder in the VGA port. Soldering is done.
+ <img src="./Pics/12.jpg" width="400px" />
+ <img src="./Pics/13.jpg" width="400px" />
 
- <img src="./Pics/Solder/14.jpg" width="400px" />
+Test fit the outside shell and see if the shells close nicely together. If not, check the fitment.
+
+ <img src="./Pics/14.jpg" width="400px" />
+
+Open the shell back up and finally, solder in the VGA port.
+
+<img src="./Pics/15.jpg" width="400px" />
+
+Alternatively, you can slide out the entire assembly and solder the VGA port. It's also easier to test in this state.
+
+<img src="./Pics/16.jpg" width="400px" />
+
+Remember to put in the insert piece inside when you close up the shell.
+
+If nuts don't want to fit nicely into the shell, twist a screw onto it and use it as a handle and try to press the nut in place from the outside.
