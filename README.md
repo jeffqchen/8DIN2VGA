@@ -25,8 +25,8 @@ There are two types of 8 pin Mini DIN connectors you can purchase. One typically
 
 <img src="./Pics/Plug_Type.jpg" width="400px" />
 
-[Building Guide for Plug-Type 8DIN2VGA](./8DIN2VGA_Plug/README.md)
+[Building Guide for Plug-Type 8DIN2VGA](./8DIN2VGA/tree/main/8DIN2VGA_Plug)
 
 <img src="./Pics/PCB_Type.jpg" width="400px" />
 
-[Building Guide for PCB-Type 8DIN2VGA](./8DIN2VGA_PCB/README.md)
+[Building Guide for PCB-Type 8DIN2VGA](./8DIN2VGA/tree/main/8DIN2VGA_PCB)
