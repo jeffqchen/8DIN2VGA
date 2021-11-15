@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 8DIN2VGA_New)(type Legacy)(uri /Users/jeffchen/KiCAD/8DIN2VGA_New/8DIN2VGA_New.lib)(options "")(descr ""))
+  (lib (name 8DIN2VGA_New_Plug-rescue)(type Legacy)(uri ${KIPRJMOD}/8DIN2VGA_New_Plug-rescue.lib)(options "")(descr ""))
+)

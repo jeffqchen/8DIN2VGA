@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name 8DIN2VGA_New)(type KiCad)(uri /Users/jeffchen/KiCAD/8DIN2VGA_New/8DIN2VGA_New.pretty)(options "")(descr ""))
+)

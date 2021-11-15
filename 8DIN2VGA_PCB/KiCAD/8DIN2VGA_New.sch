@@ -1,0 +1,217 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev "1"
+Comp ""
+Comment1 "Designed for OSH Park 2 Layer Prototype"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 8DIN2VGA_New:Landing_On_Main P1
+U 1 1 616CD077
+P 3600 3200
+F 0 "P1" H 3358 3365 50  0000 C CNN
+F 1 "Landing_On_Main" H 3358 3274 50  0000 C CNN
+F 2 "8DIN2VGA_New:Landing_Pads_On_Main_PCB" H 3300 3250 50  0001 C CNN
+F 3 "" H 3300 3250 50  0001 C CNN
+	1    3600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 8DIN2VGA_New:VGA P2
+U 1 1 616CE80B
+P 6850 3150
+F 0 "P2" H 7178 3146 50  0000 L CNN
+F 1 "VGA" H 7178 3055 50  0000 L CNN
+F 2 "8DIN2VGA_New:VGA_female_rightangle_slim" H 6350 4450 50  0001 L BNN
+F 3 "" H 6850 3150 50  0001 L BNN
+F 4 "Amphenol" H 6450 4700 50  0001 L BNN "MANUFACTURER"
+F 5 "12.55mm" H 7000 4700 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Manufacturer Recommendations" H 6300 4950 50  0001 L BNN "STANDARD"
+F 7 "N/A" H 7700 4950 50  0001 L BNN "PARTREV"
+	1    6850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 8DIN2VGA_New:3.5mm_vertical J1
+U 1 1 616D53A9
+P 6850 5000
+F 0 "J1" H 6520 5046 50  0000 R CNN
+F 1 "3.5mm_vertical" H 6520 4955 50  0000 R CNN
+F 2 "8DIN2VGA_New:3.5mm_vertical" H 6750 5400 50  0001 L BNN
+F 3 "" H 6850 5000 50  0001 L BNN
+F 4 "Manufacturer recommendation" H 6500 5500 50  0001 L BNN "STANDARD"
+F 5 "1.01" H 7800 5500 50  0001 L BNN "PARTREV"
+F 6 "CUI" H 7750 5400 50  0001 L BNN "MANUFACTURER"
+	1    6850 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SMD_Cap:Cap_0603 C1
+U 1 1 616D868F
+P 5250 4500
+F 0 "C1" V 5350 4650 50  0000 C CNN
+F 1 "10uF" V 5250 4700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5050 4800 50  0001 L BNN
+F 3 "" H 5250 4500 50  0001 L BNN
+	1    5250 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SMD_Cap:Cap_0603 C2
+U 1 1 616D936F
+P 5600 4500
+F 0 "C2" V 5696 4397 50  0000 R CNN
+F 1 "10uF" V 5605 4397 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5400 4800 50  0001 L BNN
+F 3 "" H 5600 4500 50  0001 L BNN
+	1    5600 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 616DC4D3
+P 6200 5450
+F 0 "#PWR0101" H 6200 5200 50  0001 C CNN
+F 1 "GND" H 6205 5277 50  0000 C CNN
+F 2 "" H 6200 5450 50  0001 C CNN
+F 3 "" H 6200 5450 50  0001 C CNN
+	1    6200 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4150 6200 4150
+Wire Wire Line
+	6200 4150 6200 4050
+Wire Wire Line
+	6200 4050 6350 4050
+Wire Wire Line
+	6200 4050 6200 3250
+Wire Wire Line
+	6200 3250 6350 3250
+Connection ~ 6200 4050
+Wire Wire Line
+	6200 3250 6200 3050
+Wire Wire Line
+	6200 3050 6350 3050
+Connection ~ 6200 3250
+Wire Wire Line
+	6200 3050 6200 2950
+Wire Wire Line
+	6200 2950 6350 2950
+Connection ~ 6200 3050
+Wire Wire Line
+	6200 2950 6200 2850
+Wire Wire Line
+	6200 2850 6350 2850
+Connection ~ 6200 2950
+Wire Wire Line
+	6200 2850 6200 2650
+Wire Wire Line
+	6200 2650 6350 2650
+Connection ~ 6200 2850
+Wire Wire Line
+	6200 4150 6200 4800
+Connection ~ 6200 4150
+Wire Wire Line
+	6350 4800 6200 4800
+Connection ~ 6200 4800
+Wire Wire Line
+	6200 4800 6200 5450
+$Comp
+L power:GND #PWR0102
+U 1 1 616DEFEF
+P 3850 4300
+F 0 "#PWR0102" H 3850 4050 50  0001 C CNN
+F 1 "GND" H 3855 4127 50  0000 C CNN
+F 2 "" H 3850 4300 50  0001 C CNN
+F 3 "" H 3850 4300 50  0001 C CNN
+	1    3850 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4050 3850 4050
+Wire Wire Line
+	3850 4050 3850 4300
+Wire Wire Line
+	3700 3300 3900 3300
+Wire Wire Line
+	3900 3300 3900 2250
+Wire Wire Line
+	3900 2250 6350 2250
+Wire Wire Line
+	3700 3400 4000 3400
+Wire Wire Line
+	4000 3400 4000 2350
+Wire Wire Line
+	4000 2350 6350 2350
+Wire Wire Line
+	3700 3500 4100 3500
+Wire Wire Line
+	4100 3500 4100 2450
+Wire Wire Line
+	4100 2450 6350 2450
+Wire Wire Line
+	3700 3650 6350 3650
+Wire Wire Line
+	3700 3800 4500 3800
+Wire Wire Line
+	4500 3800 4500 5200
+Wire Wire Line
+	4500 5200 6350 5200
+Wire Wire Line
+	3700 3900 4400 3900
+Wire Wire Line
+	4400 3900 4400 4900
+Wire Wire Line
+	4400 4900 6350 4900
+Wire Wire Line
+	6350 5000 5600 5000
+Wire Wire Line
+	5600 5000 5600 4600
+Wire Wire Line
+	5600 4300 5600 3850
+Wire Wire Line
+	5600 3850 6350 3850
+Wire Wire Line
+	6350 5100 5250 5100
+Wire Wire Line
+	5250 5100 5250 4600
+Wire Wire Line
+	5250 4300 5250 3550
+Wire Wire Line
+	5250 3550 6350 3550
+Text Label 4150 2250 0    50   ~ 0
+Red
+Text Label 4350 2350 0    50   ~ 0
+Green
+Text Label 4600 2450 0    50   ~ 0
+Blue
+Text Label 4650 3650 0    50   ~ 0
+Sync
+Wire Wire Line
+	3700 4200 5000 4200
+Wire Wire Line
+	5000 4200 5000 3150
+Wire Wire Line
+	5000 3150 6350 3150
+Text Label 5200 3150 0    50   ~ 0
++5V
+Text Label 5300 3550 0    50   ~ 0
+Audio_L_To_VGA
+Text Label 5700 3850 0    50   ~ 0
+Audio_R_To_VGA
+Text Label 3800 3800 0    50   ~ 0
+Audio_L_To_Jack
+Text Label 3800 3900 0    50   ~ 0
+Audio_R_To_Jack
+Text Label 3850 4100 0    50   ~ 0
+GND
+$EndSCHEMATC
