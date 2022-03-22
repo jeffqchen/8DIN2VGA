@@ -3,8 +3,8 @@
 ## Parts
 
 - PCB
- - [Main](https://oshpark.com/shared_projects/Ayo7RfDd)
- - [Plug Sub PCB](https://oshpark.com/shared_projects/sRWPes9V)
+  - [Main](https://oshpark.com/shared_projects/Ayo7RfDd)
+  - [Plug Sub PCB](https://oshpark.com/shared_projects/sRWPes9V)
 
 - 8 pin Mini DIN Male (PCB Type) - Choose the "8 Pin" option - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Connectors/Mini%20DIN/8Pin/Through%20Hole/info.md)
 
