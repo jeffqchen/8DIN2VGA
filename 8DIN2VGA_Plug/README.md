@@ -3,12 +3,12 @@
 
 ## Parts
 
-PCB
-- [Main](https://oshpark.com/shared_projects/XZ4A1SB4)
-- [Top Sub (0.8mm)](https://oshpark.com/shared_projects/FF7H08du)
-- [Bottom Sub (0.8mm)](https://oshpark.com/shared_projects/HFqqnMif)
+- PCB
+ - [Main](https://oshpark.com/shared_projects/XZ4A1SB4)
+ - [Top Sub (0.8mm)](https://oshpark.com/shared_projects/FF7H08du)
+ - [Bottom Sub (0.8mm)](https://oshpark.com/shared_projects/HFqqnMif)
 
-** Note the Top & Bottom sub boards MUST be ordered with the 0.8mm thickness otption, otherwise they won't fit!
+*Note the Top & Bottom sub boards MUST be ordered with the 0.8mm thickness option, otherwise they won't fit!*
 
 - 8 pin Mini DIN Male Plug - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Connectors/Mini%20DIN/8Pin/Cable/info.md)
 
@@ -18,9 +18,7 @@ PCB
 
 - M2x20mm screw and hex nut - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Parts/M2%20M3%20Hex%20Screw%20%26%20Nut/info.md)
 
-2x SMD Capacitor 10uF 6.3V 0603 size
-
-
+- 2x SMD Capacitor 10uF 6.3V 0603 size
 
 -----------
 ## Print
