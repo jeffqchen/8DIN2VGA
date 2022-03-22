@@ -4,9 +4,9 @@
 ## Parts
 
 - PCB
- - [Main](https://oshpark.com/shared_projects/XZ4A1SB4)
- - [Top Sub **0.8mm thickness**](https://oshpark.com/shared_projects/FF7H08du)
- - [Bottom Sub **0.8mm thickness**](https://oshpark.com/shared_projects/HFqqnMif)
+  - [Main](https://oshpark.com/shared_projects/XZ4A1SB4)
+  - [Top Sub **0.8mm thickness**](https://oshpark.com/shared_projects/FF7H08du)
+  - [Bottom Sub **0.8mm thickness**](https://oshpark.com/shared_projects/HFqqnMif)
 
 *Note the Top & Bottom sub boards MUST be ordered with the 0.8mm thickness option, otherwise they won't fit!*
 
