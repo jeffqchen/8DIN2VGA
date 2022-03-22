@@ -3,26 +3,24 @@
 
 ## Parts
 
-8 pin Mini DIN Male Plug
-- https://www.aliexpress.com/item/32891421337.html
-
 PCB
-- Main: https://oshpark.com/shared_projects/XZ4A1SB4
-- Top Sub (0.8mm): https://oshpark.com/shared_projects/FF7H08du
-- Bottom Sub (0.8mm): https://oshpark.com/shared_projects/HFqqnMif
+- [Main](https://oshpark.com/shared_projects/XZ4A1SB4)
+- [Top Sub (0.8mm)](https://oshpark.com/shared_projects/FF7H08du)
+- [Bottom Sub (0.8mm)](https://oshpark.com/shared_projects/HFqqnMif)
 
 ** Note the Top & Bottom sub boards MUST be ordered with the 0.8mm thickness otption, otherwise they won't fit!
 
-VGA Port Slim Female
-- https://www.aliexpress.com/item/4000596805684.html
+- 8 pin Mini DIN Male Plug - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Connectors/Mini%20DIN/8Pin/Cable/info.md)
 
-3.5mm Headphone Jack PJ-325
-- https://www.aliexpress.com/item/1005002983859846.html
+- VGA Port Slim Female - [Link](https://github.com/jeffqchen/JeffParts/tree/main/Connectors/VGA%20Slim%20Female%20Through%20Hole/info.md)
+
+- 3.5mm Headphone Jack - [Link](https://github.com/jeffqchen/JeffParts/tree/main/Connectors/Vertical%203.5mm%205-Pin%20Audio%20Jack/info.md)
+
+- M2x20mm screw and hex nut - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Parts/M2%20M3%20Hex%20Screw%20%26%20Nut/info.md)
 
 2x SMD Capacitor 10uF 6.3V 0603 size
 
-M2x20mm screw and hex nut
-- https://www.amazon.com/gp/product/B014OO5KQG
+
 
 -----------
 ## Print

@@ -2,27 +2,22 @@
 -----------
 ## Parts
 
-8 pin Mini DIN Male (PCB Type) - Choose the "8 Pin" option
-- https://www.aliexpress.com/item/4001071580837.html
+- PCB
+ * [Main](https://oshpark.com/shared_projects/Ayo7RfDd)
+ * [Plug Sub PCB](https://oshpark.com/shared_projects/sRWPes9V)
 
-Note: the "9 Pin" option is incompatible with the Genesis, if you are wondering. Don't buy it.
+- 8 pin Mini DIN Male (PCB Type) - Choose the "8 Pin" option - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Connectors/Mini%20DIN/8Pin/Through%20Hole/info.md)
+*Note: the "9 Pin" option is incompatible with the Genesis, if you are wondering. Don't buy it.*
 
-PCB
-- Main: https://oshpark.com/shared_projects/Ayo7RfDd
-- Plug Sub PCB: https://oshpark.com/shared_projects/sRWPes9V
+- VGA Port Slim Female - [Link](https://github.com/jeffqchen/JeffParts/tree/main/Connectors/VGA%20Slim%20Female%20Through%20Hole/info.md)
 
-VGA Port Slim Female
-- https://www.aliexpress.com/item/4000596805684.html
+- 3.5mm Headphone Jack - [Link](https://github.com/jeffqchen/JeffParts/tree/main/Connectors/Vertical%203.5mm%205-Pin%20Audio%20Jack/info.md)
 
-3.5mm Headphone Jack PJ-325
-- https://www.aliexpress.com/item/1005002983859846.html
+- (1)M2x20mm and (1)M2x16mm screw and hex nut - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Parts/M2%20M3%20Hex%20Screw%20%26%20Nut/info.md)
 
-2x SMD Capacitor 10uF 6.3V 0603 size
+- 2x SMD Capacitor 10uF 6.3V 0603 size
 
-(1)M2x20mm and (1)M2x16mm screw and hex nut
-- https://www.amazon.com/gp/product/B014OO5KQG
-
-3D Printed Case and Insert
+- 3D Printed Case and Insert
 
 -----------
 ## Print
