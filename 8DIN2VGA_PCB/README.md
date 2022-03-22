@@ -3,20 +3,14 @@
 ## Parts
 
 - PCB
- * [Main](https://oshpark.com/shared_projects/Ayo7RfDd)
- * [Plug Sub PCB](https://oshpark.com/shared_projects/sRWPes9V)
-
+ - [Main](https://oshpark.com/shared_projects/Ayo7RfDd)
+ - [Plug Sub PCB](https://oshpark.com/shared_projects/sRWPes9V)
 - 8 pin Mini DIN Male (PCB Type) - Choose the "8 Pin" option - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Connectors/Mini%20DIN/8Pin/Through%20Hole/info.md)
 *Note: the "9 Pin" option is incompatible with the Genesis, if you are wondering. Don't buy it.*
-
 - VGA Port Slim Female - [Link](https://github.com/jeffqchen/JeffParts/tree/main/Connectors/VGA%20Slim%20Female%20Through%20Hole/info.md)
-
 - 3.5mm Headphone Jack - [Link](https://github.com/jeffqchen/JeffParts/tree/main/Connectors/Vertical%203.5mm%205-Pin%20Audio%20Jack/info.md)
-
 - (1)M2x20mm and (1)M2x16mm screw and hex nut - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Parts/M2%20M3%20Hex%20Screw%20%26%20Nut/info.md)
-
 - 2x SMD Capacitor 10uF 6.3V 0603 size
-
 - 3D Printed Case and Insert
 
 -----------
