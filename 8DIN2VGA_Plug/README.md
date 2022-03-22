@@ -10,7 +10,7 @@
 
 *Note the Top & Bottom sub boards MUST be ordered with the 0.8mm thickness option, otherwise they won't fit!*
 
-- 8 pin Mini DIN Male Plug - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Connectors/Mini%20DIN/8Pin/Cable/info.md)
+- 8 pin Mini DIN Male (Plug Type) - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Connectors/Mini%20DIN/8Pin/Cable/info.md)
 
 - VGA Port Slim Female - [Link](https://github.com/jeffqchen/JeffParts/tree/main/Connectors/VGA%20Slim%20Female%20Through%20Hole/info.md)
 
